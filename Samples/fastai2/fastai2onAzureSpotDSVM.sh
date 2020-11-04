@@ -2,7 +2,7 @@
 # Script to create Azure DSVM Spot instance with NVidia K80 GPU and install fast.ai library
 read -p "Azure VM Name (default: fastai2): " vminput
 vmname=${vminput:=fastai2}
-while [ $password != $password2 ] ; do 
+while [ $password != $password2 ] ; do
 read -s -p "Choose your Password: " password
 echo
 read -s -p "Re-enter Password: " password2
